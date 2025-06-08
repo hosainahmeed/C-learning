@@ -66,3 +66,30 @@
 //     cout << total_tax << endl;
 //     return 0 ;
 // }
+
+// using namespace std;
+//
+// int main () {
+//     cout << "Enter a value :" << endl;
+//     double value ;
+//     cin >> value;
+//
+//     double z  = value * 2;
+//     cout << "The Result is : " << z << endl;
+//     return 0;
+// }
+
+
+// exercise -3 write a program to convert a temperature from  rule is == C = (°F - 32) × 5/9
+
+// using namespace std;
+//
+// int main() {
+//     cout << "welcome , please check your temperature " << endl;
+//     double fahrenheit;
+//     cout << "please enter fahrenheit : " << endl;
+//     cin >> fahrenheit;
+//     double converted_celsius = (fahrenheit - 32) * 5 / 9;
+//     cout << "Your temperature is " << converted_celsius << " celcius" << endl;
+//     return 0 ;
+// }
