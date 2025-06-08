@@ -12,7 +12,7 @@
 // }
 
 
-int main () {
+// int main () {
     // const double pi = 3.14;
     // pi =3 ; //Cannot assign to readonly type const double
 
@@ -24,8 +24,8 @@ int main () {
     // int iFileSize ; //hungarian notation case
 
     //************* mathematical convention *************
-    double x = 10;
-    int y = 3 ;
+    // double x = 10;
+    // int y = 3 ;
     // int z = x + y; // this is call addition
     // int z = x - y; // this is call subtraction
     // int z = x * y; // this is call multiplication
@@ -40,5 +40,15 @@ int main () {
     // std::cout << z ; // 3.33333
 
 
-    return 0 ;
-}
+//     return 0 ;
+// };
+
+// problem-1 rule :z= x+10/3y assume x = 10 y =5 ans z = 1.3
+
+// int main () {
+//     double x = 10 ;
+//     double y = 5 ;
+//     double z = (x + 10) / (3 * y) ;
+//     std::cout << z  ; // 1.333
+//     return 0;
+// }
