@@ -13,31 +13,31 @@
 
 
 // int main () {
-    // const double pi = 3.14;
-    // pi =3 ; //Cannot assign to readonly type const double
+// const double pi = 3.14;
+// pi =3 ; //Cannot assign to readonly type const double
 
-    //************* naming convention type *************
+//************* naming convention type *************
 
-    // int file_size ; //snake case
-    // int File_Size ; //pascal case
-    // int fileSize ; //camel case
-    // int iFileSize ; //hungarian notation case
+// int file_size ; //snake case
+// int File_Size ; //pascal case
+// int fileSize ; //camel case
+// int iFileSize ; //hungarian notation case
 
-    //************* mathematical convention *************
-    // double x = 10;
-    // int y = 3 ;
-    // int z = x + y; // this is call addition
-    // int z = x - y; // this is call subtraction
-    // int z = x * y; // this is call multiplication
-    // double z = x / y; // this is cell division
+//************* mathematical convention *************
+// double x = 10;
+// int y = 3 ;
+// int z = x + y; // this is call addition
+// int z = x - y; // this is call subtraction
+// int z = x * y; // this is call multiplication
+// double z = x / y; // this is cell division
 
-    // shortcut
-    // x = x + 5;
-    // and also we have increment and decrement
-    // x ++; // increment
-    // x --; // decreament
+// shortcut
+// x = x + 5;
+// and also we have increment and decrement
+// x ++; // increment
+// x --; // decreament
 
-    // std::cout << z ; // 3.33333
+// std::cout << z ; // 3.33333
 
 
 //     return 0 ;
@@ -51,4 +51,18 @@
 //     double z = (x + 10) / (3 * y) ;
 //     std::cout << z  ; // 1.333
 //     return 0;
+// }
+
+// exersize  - 2
+// using namespace std;
+// // assume you have a store and your salse is  = $95000  sate tax = 4% and country tax = 2% and also total tax of your income
+// int main () {
+//     double salse = 95000;
+//     double state_tax = salse * (4 / 100.0);
+//     double county_tax = salse * (2 / 100.0);
+//     double total_tax = state_tax + county_tax;
+//     cout << state_tax << endl;
+//     cout << county_tax << endl;
+//     cout << total_tax << endl;
+//     return 0 ;
 // }
