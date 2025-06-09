@@ -143,15 +143,37 @@
  */
 // new interesting things cal auto and also see all the types in code
 
-using namespace std;
+// using namespace std;
+//
+// int main () {
+//     double price = 99.99;
+//     float priceInterest = 3.57F;
+//     long fileSize = 900000L;
+//     char letter = 'a';
+//     // bool isValid = false;
+//     // this is also showing isValid is a boolean type
+//     // so you can use the auto in complex situation
+//     auto isValid = false;
+// }
 
-int main () {
-    double price = 99.99;
-    float priceInterest = 3.57F;
-    long fileSize = 900000L;
-    char letter = 'a';
-    // bool isValid = false;
-    // this is also showing isValid is a boolean type
-    // so you can use the auto in complex situation
-    auto isValid = false;
-}
+
+// new thing {} -- brace lets see in code first
+// using namespace std;
+//
+// int main() {
+//     int number = 1.2;
+//     cout << number << endl;
+//     /*if i print this
+//      * its acctually printing 1 , but you can see this 1.2 is not valid of int
+//      * so how should we avoid this type of cinario , here comes the brac --{}
+//      */
+//     int number2{2};
+//     /*now you can see this showing compiler error
+//      *so you cant compile that
+//      *and also one more benifit to use this if you use like this -- int number2 {}
+//      *if you leave that without any assign this accutually showing 0 instead of giving
+//      *a random number
+//      */
+//     cout << number2 << endl;
+//     return 0;
+// }
