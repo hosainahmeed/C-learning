@@ -140,5 +140,18 @@
  * long double -- 8 bytes
  * bool  ---------- true/false
  * char -------- 1
- *
- *
+ */
+// new interesting things cal auto and also see all the types in code
+
+using namespace std;
+
+int main () {
+    double price = 99.99;
+    float priceInterest = 3.57F;
+    long fileSize = 900000L;
+    char letter = 'a';
+    // bool isValid = false;
+    // this is also showing isValid is a boolean type
+    // so you can use the auto in complex situation
+    auto isValid = false;
+}
