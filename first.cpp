@@ -177,3 +177,20 @@
 //     cout << number2 << endl;
 //     return 0;
 // }
+
+// number system
+/* Decimal
+ * hexdecimal
+ * binary
+ */
+
+// using namespace std;
+//
+// int main() {
+//     unsigned int number = 0;
+//     // when you use unsigned its cant be give you the negative value instead of he give you a big garbage value
+//     // so thats why please avoid this
+//     --number;
+//     cout << number;
+//     return 0;
+// }
