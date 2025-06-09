@@ -104,3 +104,14 @@
 //     cout << result << endl;
 //     return 0;
 // }
+
+// pow from cmath
+
+// #include <cmath>
+//
+// int main() {
+//     double result = pow(2, 3);
+//     std::cout << result << std::endl;
+//     return 0;
+// }
+
