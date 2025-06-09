@@ -115,3 +115,16 @@
 //     return 0;
 // }
 
+//Exercise --write a program to calculate the area of circle
+#include <cmath>
+using namespace std;
+
+int main() {
+    double radius;
+    cout << "please enter the circle radius: ";
+    cin >> radius;
+    const double PI = 3.14;
+    double circle_radius = PI * pow(radius, 2);
+    cout << circle_radius << endl;
+    return 0;
+}
