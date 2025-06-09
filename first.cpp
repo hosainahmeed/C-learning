@@ -80,7 +80,7 @@
 // }
 
 
-// exercise -3 write a program to convert a temperature from  rule is == C = (°F - 32) × 5/9
+// exercise -3 write a program to convert a temperature from celcius  rule is == C = (°F - 32) × 5/9
 
 // using namespace std;
 //
@@ -92,4 +92,15 @@
 //     double converted_celsius = (fahrenheit - 32) * 5 / 9;
 //     cout << "Your temperature is " << converted_celsius << " celcius" << endl;
 //     return 0 ;
+// }
+
+// floor form cmath
+
+// #include <cmath>
+// using namespace std;
+//
+// int main() {
+//     double result = floor(1.2);
+//     cout << result << endl;
+//     return 0;
 // }
