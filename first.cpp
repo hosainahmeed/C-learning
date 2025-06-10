@@ -194,3 +194,17 @@
 //     cout << number;
 //     return 0;
 // }
+
+//conditional state
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    if (n % 2 == 0)
+        cout << "Your input is a even Number :" << n;
+    else
+        cout << "Your input is a odd Number :" << n;
+    return 0;
+}
